@@ -21,3 +21,28 @@ const password = RePasswordGenerator.generate();
 console.log(password)
 
 ```
+
+## API
+
+PassphraseGenerator.generate([options])
+Generates a random passphrase.
+
+### options
+
+Type: object
+
+*words*
+Type: number
+Default: 5
+
+The number of words in the generated passphrase.
+
+*separator*
+Type: string
+Default: '-'
+
+The separator used to separate the words in the generated passphrase.
+
+## License
+
+MIT
