@@ -33,7 +33,7 @@ Type: object
 
 *words*
 Type: number
-Default: 5
+Default: 3
 
 The number of words in the generated passphrase.
 
