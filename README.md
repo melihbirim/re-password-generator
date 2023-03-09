@@ -41,6 +41,28 @@ The number of words in the generated passphrase.
 Type: string
 Default: '-'
 
+*type*
+Values: WORDS, EASY_TO_READ, EASY_TO_SAY, ALL_CHARS
+Type: string
+Default: WORDS
+
+*case*
+Values: lower, uppper
+Type: string
+Default: lower
+
+*addNumbers*
+Adds numbers to password
+Values: true/false
+Type: boolean
+Default: false
+
+*addSymbols*
+Adds symbols to password
+Values: true/false
+Type: boolean
+Default: false
+
 The separator used to separate the words in the generated passphrase.
 
 ## License
