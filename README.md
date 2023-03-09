@@ -7,7 +7,7 @@ The RePasswordGenerator library is a Node.js package that generates secure and r
 To install the RePasswordGenerator library, use npm:
 
 ```sh
-npm install repassword-generator
+npm install re-password-generator
 ```
 
 ## Usage
